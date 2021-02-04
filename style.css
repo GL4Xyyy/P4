@@ -680,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 #text-size{
@@ -1026,6 +1026,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    li{
+        margin-top: 24px;
     }
 }
 
