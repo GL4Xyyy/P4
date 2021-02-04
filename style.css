@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -305,9 +305,6 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 214px;
-    height: 40px;
-
 }
 
 .navbar-brand img[src$=svg] {
@@ -542,7 +539,6 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-display: swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -656,7 +652,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-    font-display: swap;
 }
 
 .container {
@@ -685,10 +680,6 @@ p {
     font-size: 11px;
 }
 
-#text-size{
-    font-size: 15px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -697,7 +688,6 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
-    font-display: swap;
 }
 
 .cta-hero {
@@ -828,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
