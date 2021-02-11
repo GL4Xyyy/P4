@@ -13,3 +13,9 @@
  ExpiresDefault "access plus 7 days"
  </IfModule>
  ## EXPIRES CACHING ##
+
+RedirectPermanent /Starting website/index.html
+http://www.gl4xyyy.github.io/P4/index.html
+
+RedirectPermanent /Starting website/page2.html
+http://www.gl4xyyy.github.io/P4/page2.html
